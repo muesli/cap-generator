@@ -3,21 +3,25 @@ use <threadlib/threadlib.scad>
 // height of the cap (without thread)
 cap_height = 3; // [0:0.1:20]
 // diameter of the cap
-cap_diameter = 93; // [46:0.5:90]
+cap_diameter = 93; // [46:0.5:100]
 // thread turns
 thread_turns = 4; // [1:1:20]
 // thread style
 thread_style = "G2 3/4";
-//segments
-cap_segments=128;
 
-//space multiplier
+// space multiplier
 knurl_spacer = 1; // [1:1:8]
 
-//boldness of the knurl
+// boldness of the knurl
 knurl_boldness = 2.3; // [1:0.1:3]
 
-knurl_enabled = 1; // [1,0]
+// should a knurl be added to the cap
+knurl_enabled = true; // [true,false]
+
+/* [Hidden] */
+// segments
+cap_segments = 128; // +0 to hide in Customizer
+
 
 cylinder(h=cap_height, d=cap_diameter, $fn=cap_segments);
 translate([0, 0, cap_height + 0.1])
