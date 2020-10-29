@@ -20,7 +20,7 @@ knurl_enabled = true; // [true,false]
 
 /* [Hidden] */
 // segments
-cap_segments = 128; // +0 to hide in Customizer
+cap_segments = 128;
 
 
 cylinder(h=cap_height, d=cap_diameter, $fn=cap_segments);
