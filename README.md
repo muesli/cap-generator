@@ -1,18 +1,14 @@
 # cap-generator
+
 OpenSCAD cap with thread generator
 
 ## Screenshot
 
 ![Screenshot](screenshot.png)
 
-## Installation Windows
-Download:
-https://www.openscad.org/downloads.html
+## Installation
 
-as stated here https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries
-go to File->Show Library Folder...
-copy or clone the whole git repo there
+### Windows
 
-restart OpenSCAD 
-load cap.scad 
-
+As stated [here](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries), go to `File` -> `Show Library Folder...`
+and copy or clone the whole git repository into this folder.
